@@ -9,7 +9,6 @@ import { Navbar } from "./components/Navbar";
 import { Newsletter } from "./components/Newsletter";
 import { ScrollToTop } from "./components/ScrollToTop";
 import { Services } from "./components/Services";
-import { Team } from "./components/Team";
 import "./App.css";
 
 function App() {
@@ -25,7 +24,7 @@ function App() {
       <Cta />
       {/*<Testimonials />*/}
       <About />
-      <Team />
+      {/*<Team />*/}
       {/*<Pricing />*/}
       <Newsletter />
       <FAQ />
