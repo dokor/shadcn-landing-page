@@ -1,25 +1,54 @@
 export const LogoIcon = () => {
   return (
     <svg
-      xmlns="http://www.w3.org/2000/svg"
-      viewBox="0 0 24 24"
+      width="200"
+      height="60"
+      viewBox="0 0 200 60"
       fill="none"
-      stroke="currentColor"
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      className="lucide lucide-panels-top-left mr-2 w-6 h-6"
+      xmlns="http://www.w3.org/2000/svg"
     >
       <rect
-        width="18"
-        height="18"
-        x="3"
-        y="3"
-        rx="2"
+        x="10"
+        y="10"
+        width="40"
+        height="30"
+        rx="5"
+        fill="#8E44AD"
       />
-      <path d="M3 9h18" />
-      <path d="M9 21V9" />
+
+      <rect x="15" y="15" width="5" height="5" fill="#FFFFFF" />
+      <rect x="23" y="15" width="5" height="5" fill="#FFFFFF" />
+      <rect x="31" y="15" width="5" height="5" fill="#FFFFFF" />
+      <rect x="39" y="15" width="5" height="5" fill="#FFFFFF" />
+
+      <rect x="15" y="23" width="5" height="5" fill="#FFFFFF" />
+      <rect x="23" y="23" width="5" height="5" fill="#FFFFFF" />
+      <rect x="31" y="23" width="5" height="5" fill="#FFFFFF" />
+      <rect x="39" y="23" width="5" height="5" fill="#FFFFFF" />
+
+      <text
+        x="60"
+        y="30"
+        fill="#8E44AD"
+        font-size="20"
+        font-family="sans-serif"
+        alignment-baseline="middle"
+      >
+        Plani
+      </text>
+
+      <text
+        x="110"
+        y="30"
+        fill="#FF6FCF"
+        font-size="20"
+        font-family="sans-serif"
+        alignment-baseline="middle"
+      >
+        Festival
+      </text>
     </svg>
+
   );
 };
 
