@@ -10,27 +10,27 @@ interface FeatureProps {
 const features: FeatureProps[] = [
   {
     icon: <MedalIcon />,
-    title: "Accessibility",
+    title: "Trouvez vos festivals",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum quas provident cum",
+      "Trouvez rapidement des festivals par thème, artiste ou localisation grâce à notre moteur de recherche avancé.",
   },
   {
     icon: <MapIcon />,
-    title: "Community",
+    title: "Ajustez les détails",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum quas provident cum",
+      "Consultez les dates, les artistes présents et les informations pratiques pour chaque événement et évitez les chevauchements de dates.",
   },
   {
     icon: <PlaneIcon />,
-    title: "Scalability",
+    title: "Visualisez votre emploi du temps",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum quas provident cum",
+      "Tous vos festivals préférés dans un seul agenda, pour avoir une vue d’ensemble sur votre année.",
   },
   {
     icon: <GiftIcon />,
-    title: "Gamification",
+    title: "Partagez avec vos amis",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum quas provident cum",
+      "Partagez votre sélection sur les réseaux sociaux ou envoyez-les à vos amis pour les inviter à se joindre à la fête.",
   },
 ];
 
@@ -41,15 +41,13 @@ export const HowItWorks = () => {
       className="container text-center py-24 sm:py-32"
     >
       <h2 className="text-3xl md:text-4xl font-bold ">
-        How It{" "}
+        Comment ça fonctionne ?{" "}
         <span className="bg-gradient-to-b from-primary/60 to-primary text-transparent bg-clip-text">
-          Works{" "}
+           Etape par étape {" "}
         </span>
-        Step-by-Step Guide
       </h2>
       <p className="md:w-3/4 mx-auto mt-4 mb-8 text-xl text-muted-foreground">
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis
-        dolor pariatur sit!
+        Organisez facilement votre année de festival en quelques étapes simples.
       </p>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
