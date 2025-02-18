@@ -11,7 +11,7 @@ export const LogoIcon = () => {
         x="10"
         y="10"
         width="40"
-        height="30"
+        height="35"
         rx="5"
         fill="#8E44AD"
       />
@@ -25,6 +25,11 @@ export const LogoIcon = () => {
       <rect x="23" y="23" width="5" height="5" fill="#FFFFFF" />
       <rect x="31" y="23" width="5" height="5" fill="#FFFFFF" />
       <rect x="39" y="23" width="5" height="5" fill="#FFFFFF" />
+
+      <rect x="15" y="31" width="5" height="5" fill="#FFFFFF" />
+      <rect x="23" y="31" width="5" height="5" fill="#FFFFFF" />
+      <rect x="31" y="31" width="5" height="5" fill="#8E44AD" />
+      <rect x="39" y="31" width="5" height="5" fill="#8E44AD" />
 
       <text
         x="60"
